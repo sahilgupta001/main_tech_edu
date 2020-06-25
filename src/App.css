@@ -1,0 +1,134 @@
+body{
+    padding: 0px !important;
+    margin: 0px !important;
+    box-sizing: border-box;
+    font-family: "Montserrat",'sans-serif';
+}
+nav{
+    position: fixed !important;
+    z-index: 5 !important;
+}
+.footer-icons:hover{
+    color: #be9df7 !important;
+    transform: scale(2,2);
+    transition: 0.5s ease;
+}
+.footer-list>li>a:hover{
+    color: #9575cd;
+}
+.card-height{
+    max-height: auto !important;
+}
+.container-fluid{
+    padding: 5%;
+}
+.list-promise li{
+    list-style: disc !important;   
+}
+.mt-5{
+    margin-top:50px ;
+}
+.no-mar{
+    margin:0px !important;
+}
+.no-pad{
+    padding: 0px !important;
+}
+.quick-links{
+    display: flex;
+    justify-content: space-evenly;
+}
+.quick-links>a{
+    color: #673ab7;
+}
+footer a{
+    color: white;
+}
+footer p{
+    color: white;
+}
+.footer-list>li{
+    margin-top: 10px;
+}
+.pt-30{
+    padding-top: 30px;
+}
+.pl-5{
+    padding-left: 50px !important;
+}
+.p-10{
+    padding: 10px;
+}
+p{
+    color: #4b4b4b !important;
+}
+.display-2{
+    font-size: 4rem;
+}
+.display-1{
+    font-size: 2rem;
+    margin: 0px 5px;
+}
+section{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.p-t-100{
+    padding-top: 100px !important;
+}
+.button-primary{
+    padding:10px 25px !important;
+    border-radius: 5px;
+    font-size: 1.2rem !important;
+    background-image:linear-gradient(45deg,#673ab7 ,#9575cd  )!important ;
+    border: 0px;
+    color: #fff  ;   
+}
+.button-primary:hover{
+    padding:10px 25px !important;
+    font-size: 1.2rem !important;
+    background-image:linear-gradient(45deg,#9575cd ,#673ab7  )!important ;
+    border: 0px;
+    border-radius: 5px;
+    color: #fff;
+    transition: 1s ease-in-out;   
+}
+.button-secondary{
+    margin-top:30px !important ;
+    padding:10px 45px !important;
+    font-size: 1.3rem !important;
+    background-image:linear-gradient(45deg,#673ab7 ,#9575cd  )!important ;
+    border: 0px;
+    border-radius: 5px;
+    border-radius: 30px;
+    color: #fff  ; 
+}
+blockquote{
+    border-color: #9575cd;
+}
+ul{
+    overflow-y: hidden !important;
+}
+.card-title{
+    font-size: 16px !important;
+}
+
+@media only screen and (max-width: 600px) {
+    .button-primary{
+        padding:8px 15px !important;
+        font-size: 0.7rem !important;
+        background-image:linear-gradient(45deg,#673ab7 ,#9575cd  )!important ;
+        border: 0px;
+        border-radius: 5px;
+        color: #fff  ;   
+    }
+    .pl-5{
+        padding-left: 20px !important;
+    }
+    .quick-links{
+        display: flex;
+        justify-content: space-evenly;
+        flex-direction: column;
+        text-align: center;
+    }
+}
