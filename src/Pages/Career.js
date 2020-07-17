@@ -14,7 +14,6 @@ export default function Career() {
         getAllJobs()
         .then(response=>{
             console.log(response)
-
             if(response.success){
                 setJobs(response.data)
             }

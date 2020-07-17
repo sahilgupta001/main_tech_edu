@@ -23,6 +23,9 @@ import StartUp from './Pages/StartUp';
 // import ManagementSystems from './Pages/ManagementSystems';
 import ScrollToTop from './Components/ScrollToTop';
 import Career from './Pages/Career';
+import BlogPage from './blogsPage/blogsPage';
+import CreatePage from './blogsPage/sections/createPage'
+import PostPage from './postPage/postPage'
 import Program from './Pages/Program';
 // import AffliateForm from './Pages/AffliateForm';
 
@@ -44,6 +47,9 @@ function App() {
       <Navbar />
         <Switch>
           <Route path="/" exact component={Home} />
+          <Route exact path = {"/write"} component={CreatePage} />
+          <Route exact path = {"/view/:postId"} component={PostPage} />
+          <Route exact path = {"/viewBlogs"} component={BlogPage} />    
           <Route path="/aboutus"  component={About} />
           <Route path="/ourteam"  component={Team} />
           <Route path="/solutions" component={Solutions} />
